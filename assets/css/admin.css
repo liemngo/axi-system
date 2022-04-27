@@ -1,0 +1,182 @@
+#axi_course_meta_box > .inside {
+    box-sizing: border-box;
+    margin-top: 1em;
+}
+
+.axifield-wrap,
+.axifield-percentamount-msg,
+.axifield-locmode-msg {
+    margin-bottom: 1em;
+}
+
+.axifield-label-wrap {
+    margin-bottom: 0.5em;
+}
+
+.axifield-required {
+    color: #dc3545;
+}
+
+.axifield-wrap .axifield-invalid {
+    border-color: #dc3545;
+}
+
+.axifield-percentamount-msg,
+.axifield-locmode-msg {
+    padding: 0.75em 1.25em;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.axifield-percentamount-msg {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.axifield-locmode-msg {
+    display: none;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.dynamic-post-list .post-list-display {
+    font-size: 80%;
+    margin-left: -0.25em;
+    margin-right: -0.25em;
+}
+
+.dynamic-post-list .post-list-display li {
+    display: inline-block;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 3px;
+    margin: 0 0.25em 0.25em;
+    padding: 0.5em 0.5em 0.5em 1.75em;
+    max-width: calc( 100% - 0.5em );
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dynamic-post-list .post-list-display li a {
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    text-decoration: none;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    margin-bottom: 0;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    min-height: 0;
+    line-height: inherit;
+}
+
+.wp-list-table .status-enabled,
+.wp-list-table .status-disabled {
+    font-weight: 700;
+}
+
+.wp-list-table .status-enabled {
+    color: #28a745;
+}
+
+.wp-list-table .status-disabled {
+    color: #dc3545;
+}
+
+table#repeatable-fieldset-one td p {
+    display: inline-block;
+    width: 27.5em;
+    font-weight: bold;
+}
+
+@media( min-width: 783px ) {
+    .taxonomy-axi_discount_code .wp-list-table.tags .column-courses {
+        width: 30%;
+    }
+}
+
+.axisys-wpwidget-imgslider label {
+    display: block;
+    margin-bottom: 0.25em;
+    font-weight: bold;
+}
+
+.axisys-wpwidget-imgslider ul {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #e5e5e5;
+}
+
+.axisys-wpwidget-imgslider ul li {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    background-color: #F9F9F9;
+    padding: 3px;
+    border: 1px solid #EEE;
+    margin: 2px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.axisys-wpwidget-imgslider ul li:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-color: #FFF;
+    opacity: 0.75;
+}
+
+.axisys-wpwidget-imgslider ul li a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-top: -10px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.axisys-wpwidget-imgslider ul li a .dashicons {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.axisys-wpwidget-imgslider ul li a:hover {
+    opacity: 1;
+}
+
+.axisys-wpwidget-imgslider ul li a.image-add {
+    bottom: auto;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.axisys-wpwidget-imgslider ul li a.image-edit {
+    margin-left: -20px;
+}
+
+.axisys-wpwidget-imgslider ul li a.image-delete {
+    color: red;
+}
